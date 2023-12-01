@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arriba las Patas</title>
+    <link rel="shortcut icon" href="./assets/img/logo/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg botonera">
+
+        <div class="container-fluid">
+            <!-- LOGO -->
+            <a class="navbar-brand logo" href="./index.html">
+                <img src="./assets/img/logo/arribaLasPatasLogo.svg" alt="" class="w-25">
+            </a>
+            <!-- END LOGO -->
+
+            <!-- BTN HAMBURGUESA -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- END BTM HAMBURGUESA -->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <!-- servicios -->
+                    <li class="nav-item">
+                        <a class="nav-link " href="./assets/content/servicios.html">Servicios</a>
+                    </li>
+                    <!-- endServicios -->
+                    <!-- Shop-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./assets/content/shop.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Shop
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./assets/content/shop.html">Todo</a></li>
+                            <li><a class="dropdown-item" href="#">Gatos</a></li>
+                            <li><a class="dropdown-item" href="#">Perros</a></li>
+                            <li><a class="dropdown-item" href="#">Aves</a></li>
+                            <li><a class="dropdown-item" href="#">peces</a></li>
+                            <li><a class="dropdown-item" href="#">Reptiles</a></li>
+                            <li><a class="dropdown-item" href="#">Otras especies</a></li>
+                        </ul>
+                    </li>
+                    <!-- endShop -->
+                    <!-- Locales -->
+                    <li class="nav-item">
+                        <a class="nav-link " href="./assets/content/locales.html">Locales</a>
+                    </li>
+                    <!-- endlocales -->
+                    <!-- Nosotros -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Nosotros
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./assets/content/nosotros.html">Sobre nosotros</a></li>
+                            <li><a class="dropdown-item" href="#">Historia</a></li>
+                            <li><a class="dropdown-item" href="#">Profesionales</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item ms-2">
+                        <!-- endNosotros -->
+                    <li class="nav-item ms-2">
+                        <!-- icon user -->
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                <path fill-rule="evenodd"
+                                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-tem ms-2">
+                        <!-- icon cart -->
+                        <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                            aria-controls="offcanvasExample">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                            </svg>
+                            <span class="num-cart">1</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAV -->
+    <!-- HEADER -->
+    <header>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/header/envio (1).webp" class="d-block w-100" alt="banner nuevo">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/header/envio (2).webp" class="d-block w-100" alt="banner envio">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/header/envio (1).webp" class="d-block w-100" alt="banner oferta">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- MAIN -->
+    <main>
+        <!-- SERVICIOS -->
+        <section>
+            <!--SERVICIOS  -->
+
+            <div class="container">
+                <h2>Servicios</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="./assets/img/servicios/paseo.svg" alt="Paseo">
+                            <div class="card-body">
+                                <h5 class="card-title">Paseo</h5>
+                                <p class="card-text">Exploraciones llenas de diversión. Nuestros paseos no solo son una
+                                    actividad física, sino una experiencia para que tus mascotas descubran y disfruten
+                                    al máximo.</p>
+                                <a href="#" class="btn btn-primary">más info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="./assets/img/servicios/peluqueria.svg" alt="Peluqueria">
+                            <div class="card-body">
+                                <h5 class="card-title">Peluqueria</h5>
+                                <p class="card-text">Estilo y confort para tus peludos amigos. Nuestro servicio de
+                                    peluquería les brinda un toque de elegancia y bienestar, dejándolos radiantes y
+                                    felices.</p>
+                                <a href="#" class="btn btn-primary">más info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="./assets/img/servicios/banio.svg" alt="Baño">
+                            <div class="card-body">
+                                <h5 class="card-title">baño</h5>
+                                <p class="card-text">Relajación y limpieza en cada sesión. Con productos de alta
+                                    calidad, nuestro servicio de baño proporciona un cuidado excepcional, dejando a tus
+                                    mascotas frescas y felices.</p>
+                                <a href="#" class="btn btn-primary">más info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img class="card-img-top" src="./assets/img/servicios/entrenamiento.svg"
+                                alt="Entrenamiento">
+                            <div class="card-body">
+                                <h5 class="card-title">entrenamiento</h5>
+                                <p class="card-text">Relajación y limpieza en cada sesión. Con productos de alta
+                                    calidad, nuestro servicio de baño proporciona un cuidado excepcional, dejando a tus
+                                    mascotas frescas y felices.</p>
+                                <a href="#" class="btn btn-primary">más info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- END SERVICIOS -->
+        </section>
+        <!-- ENDSERVICIOS -->
+
+
+        <!-- MARCAS -->
+        <h2>TENEMOS TUS MARCAS PREFERIDAS</h2>
+        <section class="container">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./assets/img/marcas/eukanuba.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./assets/img/marcas/oldPrince.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./assets/img/marcas/vitalCan.webp" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="./assets/img/marcas/royalCanin.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./assets/img/marcas/iams.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="./assets/img/marcas/pawise.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                  </div>
+                 
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <!-- ENDMARCAS -->
+
+        <!-- MARCAS -->
+        <section class="marcas row container mt-5 mx-auto">
+            
+            
+           
+            <!-- <div class="col-sm-12 mt-5">
+              
+              <img src="./assets/img/marcas/marcasLogos.png" alt="marcas" class="mx-auto d-block mt-5">
+             
+            </div> -->
+          </section>
+        <!-- ENDMARCAS -->
+
+
+        <!-- <section class="section category" aria-label="category">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            <span class="span">Top</span> categories
+          </h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+
+                <figure class="card-banner img-holder" style="--width: 330; --height: 300;">
+                  <img src="./assets/images/category-1.jpg" width="330" height="300" loading="lazy" alt="Cat Food"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Cat Food</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+
+                <figure class="card-banner img-holder" style="--width: 330; --height: 300;">
+                  <img src="./assets/images/category-2.jpg" width="330" height="300" loading="lazy" alt="Cat Toys"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Cat Toys</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+
+                <figure class="card-banner img-holder" style="--width: 330; --height: 300;">
+                  <img src="./assets/images/category-3.jpg" width="330" height="300" loading="lazy" alt="Dog Food"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Dog Food</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+
+                <figure class="card-banner img-holder" style="--width: 330; --height: 300;">
+                  <img src="./assets/images/category-4.jpg" width="330" height="300" loading="lazy" alt="Dog Toys"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Dog Toys</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+
+                <figure class="card-banner img-holder" style="--width: 330; --height: 300;">
+                  <img src="./assets/images/category-5.jpg" width="330" height="300" loading="lazy"
+                    alt="Dog Sumpplements" class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Dog Sumpplements</a>
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section> -->
+    </main>
+
+    <!-- END MAIN -->
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container-fluid">
+
+            <div class="row pb-2 bg-secondary text-white">
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    
+                    <img src="./assets/img/logo/arribaLasPatasLogo.svg" alt="Logo arriba las patas" class="w-25">
+                    <p class="h5 m-b3">Arriba las Patas</p>
+
+                </div>
+
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-3">Servicios</p>
+                    <div class="mb-2 ">
+                        <a class="text-white text-decoration-none" href="">Baños</a>
+                    </div>
+                    <div class="mb-2 ">
+                        <a class="text-white text-decoration-none" href="">Paseo</a>
+                    </div>
+                    <div class="mb-2 ">
+                        <a class="text-white text-decoration-none" href="">Peluqueria</a>
+                    </div>
+                    <div class="mb-2 ">
+                        <a class="text-white text-decoration-none" href="">Entrenamiento</a>
+                    </div>
+                </div>
+
+
+
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 m-b3">Nosotros</p>
+                    <div class="mb-2 ">
+                        <a class="text-white text-decoration-none" href="">Sobre nosotros</a>
+                    </div>
+                    <div class="mb-2 ">
+                        <a class="text-white text-decoration-none" href="">Sucursales</a>
+                    </div>
+                    <div class="mb-2 ">
+                        <a class="text-white text-decoration-none" href="">contacto</a>
+                    </div>
+                    <div class="mb-2 ">
+                        <a class="text-white text-decoration-none" href="">Entrenamiento</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 m-b3">Info</p>
+                    <div class="mb-2 ">
+                        <a class="text-white text-decoration-none" href="">Ofertas</a>
+                    </div>
+                    <div class="mb-2 ">
+                        <a class="text-white text-decoration-none" href="">Promociones Bancarias</a>
+                    </div>
+                    <div class="mb-2 ">
+                        <a class="text-white text-decoration-none" href="">Delivery</a>
+                    </div>
+                    <div class="mb-2 ">
+                        <a class="text-white text-decoration-none" href="">Términos y condiciones</a>
+                    </div>
+                    <div class="col-xs-12 pt-4">
+                        <p class="text-white text-center">Copyright - All rights reserved © 2023</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </footer>
+    <!-- END FOOTER -->
+
+    <!-- Js de BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <script src="./assets/js/carrito.js"></script>
+
+</body>
+
+</html>
